@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yusufbekprosmm.uz/sitemap.xml
+
+# Disallow sensitive files
+Disallow: /backend.py
+Disallow: /optimize_images.py
+Disallow: /.htaccess
+Disallow: /robots.txt
+
+# Allow important files
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+Allow: /img-*.jpg
+Allow: /img-*.webp 
